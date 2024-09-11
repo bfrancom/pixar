@@ -44,6 +44,7 @@
                 { year: 2020, movie: "Soul", investment: 150, boxOffice: 121 },
                 { year: 2022, movie: "Lightyear", investment: 200, boxOffice: 226 },
                 { year: 2023, movie: "Elemental", investment: 200, boxOffice: 496 }
+                { year: 2024, movie: "Inside Out 2", investment: 200, boxOffice: 1065 }
             ].map(movie => ({
                 ...movie,
                 adjustedInvestment: Math.round(inflationAdjust(movie.investment, movie.year)),
